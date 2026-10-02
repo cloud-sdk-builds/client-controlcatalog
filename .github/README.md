@@ -1,12 +1,12 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-controlcatalog`](https://www.npmjs.com/package/@aws-sdk/client-controlcatalog/v/3.1144.0).
+[`@aws-sdk/client-controlcatalog`](https://www.npmjs.com/package/@aws-sdk/client-controlcatalog/v/3.1145.0).
 
 Refer to the links below for detailed documentation:
 - All Services - [https://cloud-sdk-builds.github.io](https://cloud-sdk-builds.github.io/)
 - @aws-sdk/client-controlcatalog - [https://cloud-sdk-builds.github.io/?sdk=client-controlcatalog](https://cloud-sdk-builds.github.io/?sdk=client-controlcatalog)
-- @aws-sdk/client-controlcatalog v3.1144.0 - [https://cloud-sdk-builds.github.io/?sdk=client-controlcatalog&version=3.1144.0](https://cloud-sdk-builds.github.io/?sdk=client-controlcatalog&version=3.1144.0)
+- @aws-sdk/client-controlcatalog v3.1145.0 - [https://cloud-sdk-builds.github.io/?sdk=client-controlcatalog&version=3.1145.0](https://cloud-sdk-builds.github.io/?sdk=client-controlcatalog&version=3.1145.0)
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -33,13 +33,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-controlcatalog@3.1144.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-controlcatalog@3.1145.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-7YJ4eaj8OZv2N1hhe5eGv4cvZR/cznE5jJkNzwZVP4winUBDaomKQhnG39KiSNnu
+sha384-SkCvlXlX9qNmHUEMTk1OxmJ3RzX4+s5i7hJtW3Xm/rpl6yhgEp82FC6/rQNyrC6l
 ```
 
 ### 📌 Latest Version
@@ -66,10 +66,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-controlcatalog": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-controlcatalog@3.1144.0/index.min.mjs"
+            "@aws-sdk/client-controlcatalog": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-controlcatalog@3.1145.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-controlcatalog@3.1144.0/index.min.mjs": "sha384-7YJ4eaj8OZv2N1hhe5eGv4cvZR/cznE5jJkNzwZVP4winUBDaomKQhnG39KiSNnu"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-controlcatalog@3.1145.0/index.min.mjs": "sha384-SkCvlXlX9qNmHUEMTk1OxmJ3RzX4+s5i7hJtW3Xm/rpl6yhgEp82FC6/rQNyrC6l"
         }
       }
 </script>
@@ -86,10 +86,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-controlcatalog": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-controlcatalog@3.1144.0/index.min.mjs"
+                        "@aws-sdk/client-controlcatalog": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-controlcatalog@3.1145.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-controlcatalog@3.1144.0/index.min.mjs": "sha384-7YJ4eaj8OZv2N1hhe5eGv4cvZR/cznE5jJkNzwZVP4winUBDaomKQhnG39KiSNnu"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-controlcatalog@3.1145.0/index.min.mjs": "sha384-SkCvlXlX9qNmHUEMTk1OxmJ3RzX4+s5i7hJtW3Xm/rpl6yhgEp82FC6/rQNyrC6l"
                     }
                   }
             </script>
@@ -156,7 +156,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.1144.0`)
+* Always pin to a specific version (`@3.1145.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -176,7 +176,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-controlcatalog/blob/refs/tags/3.1144.0/LICENSE
+https://github.com/cloud-sdk-builds/client-controlcatalog/blob/refs/tags/3.1145.0/LICENSE
 ```
 
 ---
